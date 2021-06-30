@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-30T10:51:38.142Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="K17d-kmAMl8uprwYggRV" version="14.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-30T11:02:59.636Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="3w8D__8vyCDuaUKWgjdU" version="14.8.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1554" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -76,8 +76,8 @@
         <mxCell id="pIFPW8qRjwwO5ad6vxGF-29" value="PK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="636" y="150" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="h1KLkH8QN6hZnU8-cZbV-1" value="CREATE TABLE client_info(&lt;br&gt;id text PRIMARY KEY NOT NULL,&lt;br&gt;ipport text NOT NULL,&lt;br&gt;chatfile text,&lt;br&gt;CONSTRAINT serveraddress_fk FOREIGN KEY(serveraddress)&lt;br&gt;REFERENCES server_info(ipport));&lt;br&gt;&amp;nbsp;&amp;nbsp;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-170" y="115" width="360" height="100" as="geometry" />
+        <mxCell id="h1KLkH8QN6hZnU8-cZbV-1" value="CREATE TABLE client_info(&lt;br&gt;id text PRIMARY KEY NOT NULL,&lt;br&gt;ipport text NOT NULL,&lt;br&gt;chatfile text,&lt;br&gt;&lt;span style=&quot;text-align: left&quot;&gt;ServerAddress text,&lt;/span&gt;&lt;br&gt;CONSTRAINT serveraddress_fk FOREIGN KEY(serveraddress)&lt;br&gt;REFERENCES server_info(ipport));&lt;br&gt;&amp;nbsp;&amp;nbsp;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-170" y="110" width="360" height="110" as="geometry" />
         </mxCell>
         <mxCell id="h1KLkH8QN6hZnU8-cZbV-2" value="CREATE TABLE contents_info (&lt;br&gt;fileaddress text PRIMARY KEY NOT NULL,&lt;br&gt;recieveaddress text NOT NULL,&lt;br&gt;sendaddress text NOT NULL,&lt;br&gt;recievetime text);&lt;br&gt;&amp;nbsp;&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="632" y="280" width="250" height="90" as="geometry" />
